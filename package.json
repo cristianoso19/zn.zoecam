@@ -1,0 +1,20 @@
+{
+  "name": "cm.simulador",
+  "version": "1.0.0",
+  "description": "Simulador de comisiones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/style.css -o dist/output.css",
+    "dev": "postcss src/style.css -o dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.3",
+    "watch": "^1.0.2"
+  }
+}
