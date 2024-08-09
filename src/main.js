@@ -12,7 +12,7 @@ function calculoCamaras(){
         return;
     }
 
-    let valor = (costoGrabacion*dias*camaras)+fulltime
+    let valor = (costoGrabacion*dias*camaras)+(fulltime*camaras)
     let total = valor + 27.50
     
      // Mostrar el resultado
